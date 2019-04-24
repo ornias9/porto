@@ -1,0 +1,11 @@
+.header {
+    // background-color: aqua;
+    background: linear-gradient(to right,rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/desk-banner.jpg) center/cover no-repeat;         //shorthand property used for below background properties
+    // background-image: url(../img/desk-banner.jpg);
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    height: 60rem;
+
+    position: relative;
+}

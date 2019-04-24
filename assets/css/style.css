@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.navigation {
+  padding: .5rem 0;
+  position: absolute;
+  top: 2.5rem;
+  right: 20rem; }
+  .navigation__box {
+    display: flex;
+    font-size: 3.5rem;
+    color: #666; }
+  .navigation__item {
+    list-style: none;
+    margin: 0 1rem; }
+
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desk-banner.jpg) center/cover no-repeat;
+  height: 60rem;
+  position: relative; }
