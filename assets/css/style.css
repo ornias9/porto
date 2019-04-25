@@ -8,6 +8,11 @@
 html {
   font-size: 62.5%; }
 
+.section-title {
+  font-size: 5rem;
+  color: #333;
+  text-align: center; }
+
 .universal-padding {
   padding: 0 20rem; }
 
@@ -32,7 +37,6 @@ html {
 .about {
   background-color: #eee; }
   .about__title {
-    text-align: center;
     padding: 1rem 0; }
   .about__details {
     display: flex;
@@ -63,8 +67,43 @@ html {
   height: 50rem; }
 
 .contact {
-  background-color: aquamarine;
-  height: 50rem; }
+  background-color: #d8d1b9;
+  text-align: center;
+  font-size: 3rem;
+  color: #89835d; }
+  .contact__details {
+    margin-top: 8rem; }
+  .contact__socials {
+    padding: 8rem 0 2rem 0; }
+  .contact__sl-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0; }
+  .contact__sl-item {
+    list-style: none;
+    font-size: 4rem; }
+    .contact__sl-item:not(:last-child) {
+      margin-right: 3rem; }
+  .contact__sl-link {
+    text-decoration: none;
+    color: #999;
+    text-shadow: 1px 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
+
+.fa-github:hover {
+  color: #f1502f; }
+
+.fa-linkedin-in:hover {
+  color: #07b5; }
+
+.fa-bitbucket:hover {
+  color: #2684ff; }
+
+.fa-twitter:hover {
+  color: #38a1f3; }
+
+.fa-facebook-f:hover {
+  color: #3b5998; }
 
 .footer {
   background-color: #333;
@@ -72,12 +111,13 @@ html {
   justify-content: center;
   color: #eee;
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  padding: 1.5rem 0; }
   .footer__textbox {
     margin: 1rem 0; }
 
 .header {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desk-banner.jpg) center/cover no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(64, 107, 85, 0.8)), url(../img/desk-banner.jpg) center/cover no-repeat;
   height: 50rem;
   border-bottom: 2px solid #333;
   position: relative;
@@ -90,6 +130,3 @@ html {
   .header__primary {
     color: #eee;
     font-size: 9rem; }
-  .header__secondary {
-    font-size: 5rem;
-    color: #333; }

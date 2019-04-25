@@ -1,4 +1,64 @@
 .contact{
-  background-color: aquamarine;
-  height: 50rem;
+  background-color: #d8d1b9;
+  // height: 50rem;
+
+  text-align: center;
+  font-size: 3rem;
+  color: #89835d;
+
+  &__details{
+    margin-top: 8rem;
+  }
+
+  &__socials{
+    padding: 8rem 0 2rem 0;
+  }
+
+  &__social-links{
+    // background-color: aqua;
+  }
+
+  &__sl-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 0;
+  }
+
+  &__sl-item{
+    list-style: none;
+    font-size: 4rem;
+
+    &:not(:last-child){
+      margin-right: 3rem;
+    }
+  }
+
+  &__sl-link{
+    text-decoration: none;
+    color: #999;
+    text-shadow: 1px 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+}
+
+.fa{
+  &-github:hover{
+    color: #f1502f;
+  }
+
+  &-linkedin-in:hover{
+    color: #07b5;
+  }
+
+  &-bitbucket:hover{
+    color: #2684ff;
+  }
+
+  &-twitter:hover{
+    color: #38a1f3;
+  }
+
+  &-facebook-f:hover{
+    color: #3b5998;
+  }
 }

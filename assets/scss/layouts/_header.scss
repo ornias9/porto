@@ -1,10 +1,11 @@
 .header {
   // background-color: aqua;              //for debugging purposes
-  background: linear-gradient(to right,rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/desk-banner.jpg) center/cover no-repeat;         //shorthand property used for below background properties
+  background: linear-gradient(to right,rgba(0, 0, 0, .8), rgba(64, 107, 85, .8)), url(../img/desk-banner.jpg) center/cover no-repeat;         //shorthand property used for below background properties
   // background-image: url(../img/desk-banner.jpg);
   // background-size: cover;
   // background-position: center;
   // background-repeat: no-repeat;
+  // background-blend-mode: screen;
   height: 50rem;
   border-bottom: 2px solid #333;
 
@@ -24,8 +25,5 @@
     font-size: 9rem;
   }
 
-  &__secondary{
-    font-size: 5rem;
-    color: #333;
-  }
 }
+
