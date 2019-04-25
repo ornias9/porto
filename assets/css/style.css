@@ -8,20 +8,88 @@
 html {
   font-size: 62.5%; }
 
+.universal-padding {
+  padding: 0 20rem; }
+
+.test {
+  background-color: green;
+  height: 50rem;
+  margin-bottom: 1rem; }
+
 .navigation {
   padding: .5rem 0;
   position: absolute;
   top: 2.5rem;
-  right: 20rem; }
+  right: 4rem; }
   .navigation__box {
     display: flex;
-    font-size: 3.5rem;
-    color: #666; }
+    font-size: 2.5rem;
+    color: #eee; }
   .navigation__item {
     list-style: none;
     margin: 0 1rem; }
 
+.about {
+  background-color: #eee; }
+  .about__title {
+    text-align: center;
+    padding: 1rem 0; }
+  .about__details {
+    display: flex;
+    margin: 3rem 0; }
+  .about__textbox {
+    font-size: 3rem;
+    color: #666;
+    margin-right: 20rem;
+    text-align: justify; }
+  .about__imgbox {
+    background-color: red;
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    overflow: hidden; }
+  .about__img {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain; }
+  .about__qualifications {
+    background-color: bisque;
+    height: 50rem; }
+
+.projects {
+  background-color: darkcyan;
+  height: 50rem; }
+
+.contact {
+  background-color: aquamarine;
+  height: 50rem; }
+
+.footer {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  color: #eee;
+  font-size: 1.5rem;
+  text-align: center; }
+  .footer__textbox {
+    margin: 1rem 0; }
+
 .header {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/desk-banner.jpg) center/cover no-repeat;
-  height: 60rem;
-  position: relative; }
+  height: 50rem;
+  border-bottom: 2px solid #333;
+  position: relative;
+  transition: all .2s; }
+  .header__textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__primary {
+    color: #eee;
+    font-size: 9rem; }
+  .header__secondary {
+    font-size: 5rem;
+    color: #333; }
