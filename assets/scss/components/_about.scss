@@ -3,7 +3,7 @@
 
   &__title{
     // text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
 
   &__details{
@@ -18,8 +18,6 @@
     color: #666;
     margin-right: 20rem;
     text-align: justify;
-    // width: 55%;
-
   }
 
   &__imgbox{
@@ -39,8 +37,44 @@
   }
 
   &__qualifications{
-    background-color: bisque;
-    height: 50rem;
+    // background-color: bisque;      //for development purposes
+    // height: 50rem;
+    display: flex;
+    padding-bottom: 3rem;
   }
+
+  &__qualifications-box{
+    // background-color: #ccc;         //for development purposes
+    padding: 0 3rem ;
+    width: 30%;
+
+    &:not(:last-child){
+      margin: 0 8rem 0 0;
+    }
+  }
+
+  &__qualifications-title{
+    font-size: 4rem;
+    color: #333;
+    // text-align: center;
+  }
+
+  &__ql-box{
+      // background-color: aqua;          //for development purposes
+      padding: 1rem 0;
+  }
+
+  &__ql-title{
+    font-size: 2.5rem;
+    color: #666;
+    
+  }
+
+  &__ql-description{
+    font-size: 2rem;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+
 }
 

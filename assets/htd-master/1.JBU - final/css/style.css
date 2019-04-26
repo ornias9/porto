@@ -1,0 +1,414 @@
+body{
+	margin: 0;
+	font-family: arial;
+	color: #000000;
+}
+
+.test{
+	background: darkolivegreen;
+	height: 100px;
+}
+
+.clear{
+	clear: both;
+	display: block;
+}
+
+.clearfix:after{
+	clear: both;
+	display: block;
+	content: '';
+
+}
+
+img{
+	display: block;
+}
+
+
+	/*navigation part*/
+
+nav{
+	background: #a81f00;
+}
+
+.center{
+	/*background: #00f;*/
+	width: 960px;
+	margin: auto;
+}
+
+nav ul{
+	/*background: #008080;*/
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	/*background: #0ff;*/
+	float: left;
+	list-style: none;
+
+	margin-left: 26px;
+}
+
+nav a{
+	/*background: #008000;*/
+	display: block;
+	color: #fff;
+	text-decoration: none;
+
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+
+}
+
+nav .active a{
+	background: #000;
+	padding: 0 19px;
+
+	cursor: default;
+}
+
+nav a:hover{
+	color: #b7b7b7;
+}
+
+nav .active a:hover{
+	color: #fff;
+}
+
+
+
+
+
+	/*jbu energy--fb, twitter-- header part*/
+
+header{
+	background: #e5e5e5;
+	margin-top: 2px;
+
+	padding: 33px 0 25px 0;
+}
+
+header .logo{
+	float: left;
+}
+
+header .socials{
+	/*background: #008080;*/
+	float: right;
+}
+
+header .socials a{
+	/*background-color: #f0f;*/
+	float: left;
+
+	margin-left: 11px;
+	height: 37px;
+	overflow: hidden;
+}
+
+
+.socials img{
+	transition: 0.5s;
+}
+
+.socials a:hover img{
+	margin-top: -37px;
+}
+
+
+
+header .socials img{
+	display: block;
+}
+
+
+	/*banner*/
+
+.banner{
+	background: url(../images/bg-banner.jpg) center bottom no-repeat;
+	letter-spacing: -4px;
+	text-align: center;
+}
+
+.battery{
+	/*background: #080;*/
+	display: inline-block;
+	vertical-align: middle;
+	margin: 27px 70px 0 0;
+
+}
+
+ 
+
+.ourproducts{
+	/*background: #00f;*/
+	display: inline-block;
+	letter-spacing: 0;
+	vertical-align: middle;
+	text-align: left;	
+}
+
+.ourproducts ul{
+	/*background: #008080;*/
+	margin: 0;
+	padding: 0 0 0 33px;
+}
+
+.ourproducts li{
+	background: url(../images/bulb.png) 0 7px no-repeat;
+	list-style: none;
+
+	font-size: 18px;
+	text-decoration: underline;
+	color: #ffffff;
+
+	padding-left: 26px;
+	line-height: 30px;
+}
+
+.readmore{
+	background: #a92304 url(../images/io.png) 12px center no-repeat;
+	display: inline-block;
+	text-decoration: none;
+
+	font-size: 14px;
+	color: #fff;
+	border-radius: 25px;
+	padding: 10px 15px 10px 39px;
+	margin: 18px 0 0 33px;
+}
+
+
+.readmore:hover{
+	background-color: #090;
+}
+
+	/*who we are part*/
+
+main .center{
+	/*background: #00f;*/
+	text-align: center;
+}
+
+main h1{
+	/*background: #008080;*/
+	font-weight: normal;
+	margin: 44px 0 0 0;
+
+	font-size: 46px;
+	color: #9b2004;
+}
+
+main p{
+	/*background: #0ff;*/
+	margin: 12px 0 0 0;
+
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.grey{
+	background-color: #8f8f8f;
+	margin: 23px 0 42px 0;
+}
+
+.grey:hover{
+	background-color: #00f;
+}
+
+	/*iso logo part--feature--*/
+
+.features{
+	/*background: #002589;*/
+	margin: 0 0 45px 0;
+}
+
+.features .center{
+	border-top: 1px dashed #737373;
+}
+
+.feature{
+	/*background: #00f;*/
+	float: left;
+
+	padding: 36px 0 0 0;
+}
+
+.feature img{
+	float: left;
+	margin: 0 23px 0 0;
+}
+
+.feature span{
+	/*background: #008080;*/
+	float: left;
+}
+
+.feature strong{
+	/*background: #008000;*/
+	display: block;
+
+	font-size: 30.07px;
+	color: #a81f00;
+	margin: 9px 0 0 0;
+}
+
+.feature small{
+	/*background: #808000;*/
+	display: block;
+
+	font-size: 18.04px;
+	line-height: 22px;
+	margin: 3px 0 0 0;
+}
+
+.middle{
+	border-left: 1px dashed #737373;
+	border-right: 1px dashed #737373;
+	padding: 36px 39px 0 41px;
+	margin: 0 37px 0 43px;
+}
+
+
+	/*footer*/
+
+footer{
+	background: #e5e5e5;
+	border-top: 2px solid #b7b7b7;
+	padding: 32px 0 28px 0;
+}
+
+footer .fleft{
+	/*background: #00f;*/
+	float: left;
+	margin: 0 39px 0 0;
+}
+
+.fleft h3{
+	/*background: #008080;*/
+	margin: 0;
+
+	text-decoration: underline;
+	font-size: 24px;
+	color: #a81f00;
+	letter-spacing: -1px;
+}
+
+.fleft ul{
+	/*background: #808000;*/
+	float: left;
+	margin: 0 38px 0 0;
+	padding: 17px 0 0 0;	
+}
+
+.fleft li{
+	/*background: #f0f;*/
+	list-style: none;
+}
+
+
+.fleft li a{
+	/*background: #0ff;*/
+	display: block;
+	color: #007843;
+	font-size: 14px;
+	margin: 7px 0 0 0;
+}
+
+
+.fright{
+	/*background: #800080;*/
+	float: left;
+}
+
+.fright div{
+	float: left;
+	margin: 0 31px 0 0;
+}
+
+.fright .hoffice{
+	float: none;
+}
+
+.fright h4{
+	/*background: #0ff;*/
+	margin: 20px 0 0 0;
+
+	font-size: 14px;
+	color: #a81f00;
+}
+
+.fright p{
+	/*background: #008000;*/
+	margin: 6px 0 0 0;
+
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.hoffice h4{
+	font-size: 16px;
+	color: #007843;
+	
+	margin: 7px 0 0 0;
+}
+
+.hoffice p{
+	font-size: 14px;
+	line-height: 22px;
+	margin: 1px 0 0 0;
+}
+
+.fright a{
+	color: #000;
+}
+
+
+
+
+
+	/*copyright tqid*/
+
+.copyright{
+	background: #e5e5e5;		
+}
+
+.copyright .center{
+	border-top: 1px dashed #919191;
+	padding: 15px 0 29px 0;
+}
+
+.copyright p{
+	/*background: #00f;*/
+	float: left;
+	margin: 0;
+	font-size: 12px;
+}
+
+.copyright p a{
+	background:  url(../images/tqid.png) 0 0 no-repeat;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	padding: 3px 0 0 25px;
+	height: 22px;
+}
+
+.copyright span{
+	/*background: #0ff;*/
+	float: right;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+
+
+
+
+
+
+
