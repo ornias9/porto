@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,700i" rel="stylesheet">
 </head>
 <body>
 
@@ -17,10 +18,10 @@
       <!-- navigation section start -->
       <nav class="navigation">
           <ul class="navigation__box">
-            <li class="navigation__item">Home</li>
-            <li class="navigation__item">About</li>
-            <li class="navigation__item">Projects</li>
-            <li class="navigation__item">Contact</li>
+            <li class="navigation__item"><a href="#" class="navigation__link"> Home </a></li>
+            <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+            <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+            <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
           </ul>
       </nav>
       <!-- navigation section end -->
@@ -32,7 +33,7 @@
   </div>            
   </header>
 
-  <div class="about universal-padding">
+  <div class="about universal-padding" id="about">
     <!-- about section title -->
     <div class="about__title">
       <h2 class="section-title">About Me</h2>
@@ -93,7 +94,7 @@
           <dt class="about__ql-title">SCSS(CSS Preprocessors)</dt>
           <dt class="about__ql-title">Git</dt>
           <dt class="about__ql-title">Jquery</dt>
-          <dt class="about__ql-title">CSS</dt>
+          <dt class="about__ql-title">C/C++</dt>
         </dl>
       </div>
       
@@ -102,7 +103,7 @@
   </div>
 
   <!-- projects section start -->
-  <div class="projects universal-padding">
+  <div class="projects universal-padding" id="projects">
     <h2 class="section-title">
       Projects
     </h2>
@@ -117,10 +118,10 @@
         <a href="https://ornias9.github.io/yipl-fec/" target="blank" class="projects__links"><img src="./assets/img/yipl.jpg" alt="photo" class="projects__img"></a>
       </div>
       <div class="projects__thumbnail">
-        <a href="#" class="projects__links"><img src="./assets/img/Selection_009.jpg" alt="photo" class="projects__img"></a>
+        <a href="./assets/htd-master/1.JBU - final/index.html" class="projects__links"><img src="./assets/img/Selection_009.jpg" alt="photo" class="projects__img"></a>
       </div>
       <div class="projects__thumbnail">
-        <a href="#" class="projects__links"><img src="./assets/img/sbbr.jpg" alt="photo" class="projects__img"></a>
+        <a href="./assets/htd-master/2.sbbr/index.html" class="projects__links"><img src="./assets/img/sbbr.jpg" alt="photo" class="projects__img"></a>
       </div>
     </div>
   </div>
@@ -137,7 +138,7 @@
       OR <br>
       use one of the social links listed below.
     </div>
-    <div class="contact__socials">
+    <div class="contact__socials" id="contact">
         <strong>Social Links:</strong>
       <div class="contact__social-links">
         <ul class="contact__sl-box">
@@ -160,5 +161,9 @@
     </div>
   </footer>
   <!-- footer section end -->
+
+  <!-- scripts -->
+  <!-- <script src="assets/script/jquery.js" async></script> -->
+  <script src="assets/script/main.js" async></script>
 </body>
 </html>

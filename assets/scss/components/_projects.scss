@@ -1,25 +1,22 @@
 .projects{
-  background: linear-gradient(to top right, rgba(0, 139, 139, .8), rgba(0, 139, 139, .5));              
-  // height: 50rem;
+  background: linear-gradient(to top right, rgba(121, 230, 230, 1), rgba(0, 139, 139, .5));              
   border-top: 2px solid rgba(0, 139, 139, 1);
   box-shadow: 0px 0px 45px 10px #000 inset;
 
   &__thumbnail-box{
     // background-color: aqua;                //for development purposes
-    padding: 3rem 0 0 0;
+    padding: 3rem 0 3rem 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
   }
 
   &__thumbnail{
-    background-color: greenyellow;
+    // background-color: greenyellow;         //for development purposes
     height: 25rem;
     width: 30rem;
     flex: 0 0 30%;
     margin-bottom: 3rem;
-
   }
 
   &__links{
@@ -27,7 +24,6 @@
     text-decoration: none;
     width: 100%;
     height: 100%;
-
   }
 
   &__img{

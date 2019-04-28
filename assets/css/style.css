@@ -6,12 +6,16 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: 'Alegreya', serif;
+  font-weight: 400; }
 
 .section-title {
   font-size: 5rem;
+  font-weight: 700;
   color: #333;
-  text-align: center; }
+  text-align: center;
+  padding: 2rem 0; }
 
 .universal-padding {
   padding: 0 20rem; }
@@ -25,19 +29,22 @@ html {
   padding: .5rem 0;
   position: absolute;
   top: 2.5rem;
-  right: 4rem; }
+  right: 12rem; }
   .navigation__box {
     display: flex;
-    font-size: 2.5rem;
-    color: #eee; }
+    font-size: 3rem;
+    font-weight: 500; }
   .navigation__item {
     list-style: none;
-    margin: 0 1rem; }
+    margin: 0 1rem 0 1rem; }
+    .navigation__item:not(:last-child) {
+      margin-right: 1rem; }
+  .navigation__link {
+    text-decoration: none;
+    color: #eee; }
 
 .about {
   background-color: #eee; }
-  .about__title {
-    padding: 2rem 0; }
   .about__details {
     display: flex;
     margin: 3rem 0; }
@@ -47,27 +54,21 @@ html {
     margin-right: 20rem;
     text-align: justify; }
   .about__imgbox {
-    background-color: red;
-    height: 15rem;
-    width: 15rem;
-    border: 1px solid #eee;
-    border-radius: 50%;
-    overflow: hidden; }
+    height: 30rem; }
   .about__img {
-    display: block;
-    width: 15rem;
-    height: 15rem;
-    object-fit: contain; }
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%; }
   .about__qualifications {
     display: flex;
-    padding-bottom: 3rem; }
+    padding-bottom: 7rem; }
   .about__qualifications-box {
-    padding: 0 3rem;
     width: 30%; }
     .about__qualifications-box:not(:last-child) {
       margin: 0 8rem 0 0; }
   .about__qualifications-title {
     font-size: 4rem;
+    font-weight: 500;
     color: #333; }
   .about__ql-box {
     padding: 1rem 0; }
@@ -75,21 +76,20 @@ html {
     font-size: 2.5rem;
     color: #666; }
   .about__ql-description {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #999;
     margin-bottom: 1rem; }
 
 .projects {
-  background: linear-gradient(to top right, rgba(0, 139, 139, 0.8), rgba(0, 139, 139, 0.5));
+  background: linear-gradient(to top right, #79e6e6, rgba(0, 139, 139, 0.5));
   border-top: 2px solid darkcyan;
   box-shadow: 0px 0px 45px 10px #000 inset; }
   .projects__thumbnail-box {
-    padding: 3rem 0 0 0;
+    padding: 3rem 0 3rem 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
   .projects__thumbnail {
-    background-color: greenyellow;
     height: 25rem;
     width: 30rem;
     flex: 0 0 30%;
@@ -129,7 +129,8 @@ html {
   .contact__sl-link {
     text-decoration: none;
     color: #999;
-    text-shadow: 1px 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
+    text-shadow: 1px 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: all .2s; }
 
 .fa-github:hover {
   color: #f1502f; }
@@ -153,9 +154,9 @@ html {
   color: #eee;
   font-size: 1.5rem;
   text-align: center;
-  padding: 1.5rem 0; }
+  padding: .5rem 0; }
   .footer__textbox {
-    margin: 1rem 0; }
+    margin: .5rem 0; }
 
 .header {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(64, 107, 85, 0.8)), url(../img/desk-banner.jpg) center/cover no-repeat;
@@ -170,4 +171,5 @@ html {
     transform: translate(-50%, -50%); }
   .header__primary {
     color: #eee;
-    font-size: 9rem; }
+    font-size: 9rem;
+    font-weight: 700; }

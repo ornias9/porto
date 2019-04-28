@@ -2,18 +2,16 @@
   background-color: #eee;
 
   &__title{
-    // text-align: center;
-    padding: 2rem 0;
   }
 
   &__details{
-    // background-color: olive;
+    // background-color: olive;       //for development purposes
     display: flex;
     margin: 3rem 0 ;
   }
 
   &__textbox{
-    // background-color: blue;
+    // background-color: blue;        //for development purposes
     font-size: 3rem;
     color: #666;
     margin-right: 20rem;
@@ -21,31 +19,23 @@
   }
 
   &__imgbox{
-    background-color: red;
-    height: 15rem;
-    width: 15rem;
-    border: 1px solid #eee;
-    border-radius: 50%;
-    overflow: hidden;
+    height: 30rem;
   }
 
   &__img{
-    display: block;
-    width: 15rem;
-    height: 15rem;
-    object-fit: contain;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
   }
 
   &__qualifications{
     // background-color: bisque;      //for development purposes
-    // height: 50rem;
     display: flex;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
   }
 
   &__qualifications-box{
     // background-color: #ccc;         //for development purposes
-    padding: 0 3rem ;
     width: 30%;
 
     &:not(:last-child){
@@ -55,8 +45,8 @@
 
   &__qualifications-title{
     font-size: 4rem;
+    font-weight: 500;
     color: #333;
-    // text-align: center;
   }
 
   &__ql-box{
@@ -71,7 +61,7 @@
   }
 
   &__ql-description{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #999;
     margin-bottom: 1rem;
   }
