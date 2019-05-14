@@ -26,7 +26,7 @@ var pig=document.getElementsByClassName("projects__img");
 $(".projects__img").mouseover(function(){
   $(this).css({
     "transform": "translateY(-2px)",
-    "box-shadow": "5px 6px 20px 6px rgba(0, 0, 0, 0.5)"
+    "box-shadow": "1px 1px 10px 2px rgba(0, 0, 0, 0.5)"
   });
 
 });
@@ -34,7 +34,7 @@ $(".projects__img").mouseover(function(){
 $(".projects__img").mouseout(function(){
   $(this).css({
     "transform": "translateY(0px)",
-    "box-shadow": "5px 6px 20px 6px rgba(0, 0, 0, 0.5)"
+    "box-shadow": "2px 2px 15px 5px rgba(0, 0, 0, 0.5)"
   });
 
 });
