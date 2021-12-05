@@ -1,9 +1,13 @@
-.projects{
-  background: linear-gradient(to top right, rgba(121, 230, 230, 1), rgba(0, 139, 139, .5));              
+.projects {
+  background: linear-gradient(
+    to top right,
+    rgba(121, 230, 230, 1),
+    rgba(0, 139, 139, 0.5)
+  );
   border-top: 2px solid rgba(0, 139, 139, 1);
   box-shadow: 0px 0px 45px 10px #000 inset;
 
-  &__thumbnail-box{
+  &__thumbnail-box {
     // background-color: aqua;                //for development purposes
     padding: 3rem 0 3rem 0;
     display: flex;
@@ -11,7 +15,7 @@
     flex-wrap: wrap;
   }
 
-  &__thumbnail{
+  &__thumbnail {
     // background-color: greenyellow;         //for development purposes
     height: 20rem;
     width: 30rem;
@@ -19,18 +23,23 @@
     margin-bottom: 3rem;
   }
 
-  &__links{
+  &__links {
     display: block;
     text-decoration: none;
     width: 100%;
     height: 100%;
   }
 
-  &__img{
+  &__img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.5);
+    }
   }
 }
