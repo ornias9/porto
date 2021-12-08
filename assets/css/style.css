@@ -26,7 +26,7 @@ html {
   margin-bottom: 1rem; }
 
 .navigation {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   position: absolute;
   top: 2.5rem;
   right: 12rem; }
@@ -42,6 +42,8 @@ html {
   .navigation__link {
     text-decoration: none;
     color: #eee; }
+    .navigation__link--active {
+      color: #a3a3a3; }
 
 .about {
   background-color: #eee; }

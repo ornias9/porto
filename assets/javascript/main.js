@@ -1,6 +1,7 @@
 "use strict";
 
 const navContainer = document.querySelector(".navigation__box");
+const navLinks = document.querySelectorAll(".navigation__link");
 
 //nav smooth scrolling using event delegation
 navContainer.addEventListener("click", function (e) {
