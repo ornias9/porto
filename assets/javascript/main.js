@@ -7,12 +7,12 @@ const navLinks = document.querySelectorAll(".navigation__link");
 navContainer.addEventListener("click", function (e) {
   e.preventDefault();
 
-  console.log(e.target);
+  // console.log(e.target);
 
-  // if (e.target.classList.contains("navigation__link")) {
-  //   const id = e.target.getAttribute("href");
-  //   document.querySelector(id).scrollIntoView({
-  //     behavior: "smooth",
-  //   });
-  // }
+  if (e.target.classList.contains("navigation__link")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  }
 });
